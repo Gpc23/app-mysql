@@ -3,7 +3,7 @@ class Config:
 
 class DevelopmentConfig(Config):
     DEBUG = True
-    MYSQL_HOST = 'localhost'
+    MYSQL_HOST = '192.168.122.158'
     MYSQL_USER = 'gonzalo'
     MYSQL_PASSWORD = 'gonzalo'
     MYSQL_DB = 'prueba'
